@@ -1,0 +1,35 @@
+.item__wrapper {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.1rem 0.8rem 1.65rem 0.8rem;
+  text-align: center;
+}
+.item__image {
+  width: 100px;
+  transition: all 300ms ease;
+  padding-right: 3rem;
+}
+
+.item__name {
+  /* position  */
+
+  font-size: 0.9rem;
+  font-size: 15px;
+  /* transform: scale(0); */
+  opacity: 1;
+  transition: all 300ms ease;
+  margin: 0 auto;
+}
+
+.item__wrapper:hover .item__name {
+  opacity: 1;
+  transform: scale(1);
+}
+
+.item__wrapper:hover .item__image {
+  filter: brightness(80%);
+  opacity: 0.86;
+  transform: scale(0.9);
+}

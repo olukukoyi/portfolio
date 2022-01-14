@@ -1,0 +1,78 @@
+.showcase {
+  display: flex;
+  max-height: 70vh;
+}
+
+.row {
+  padding: 5% 7%;
+  background-color: #001f3f;
+  max-width: 1300px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* Intorduction part */
+.showcase__name {
+  opacity: 1;
+  font-size: 4rem;
+  font-weight: bold;
+  padding-bottom: 1%;
+  color: rgb(226, 226, 226);
+}
+
+.showcase__para {
+  font-size: 1.4rem;
+  color: rgb(226, 226, 226);
+  padding: 0 0 2% 0;
+}
+
+.showcase__btn {
+  width: 164px;
+  font-size: 20px;
+  color: #242424;
+  background-color: rgb(226, 226, 226);
+  border-style: none;
+  padding: 10px 24px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: all 350ms ease;
+  position: relative;
+}
+
+.showcase__btn:hover {
+  background-color: #083358;
+  color: rgb(226, 226, 226);
+  border: 0.2px white solid;
+}
+
+.showcase__button--popper {
+  position: absolute;
+  left: 480px;
+}
+
+.showcase__btn:hover .showcase__button--popper {
+  transform: translateY(100px);
+}
+
+/* Media */
+
+.media-container {
+  width: 80px;
+  margin: 15% 0 0 0.5%;
+  background-color: #001f3f;
+}
+.fa-linkedin,
+.fa-twitter,
+.fa-github {
+  color: #eed6c4;
+}
+
+.media-container__list-item {
+  font-size: 4rem;
+  color: black;
+  transition: all 350ms ease;
+}
+
+.media-container__list-item:hover {
+  transform: scale(1.2);
+}
