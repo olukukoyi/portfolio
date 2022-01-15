@@ -23,7 +23,7 @@ function Header() {
       <nav>
         <div className="logo">
           <h4>
-            Olu Kukoyi
+            <span className="header__name">Olu Kukoyi</span>
             <FontAwesomeIcon className="fas fa-chess-king" icon={faChessKing} />
           </h4>
         </div>
@@ -38,15 +38,7 @@ function Header() {
               .home()
             </a>
           </li>
-          {/* <li>
-            <a
-              className="nav-links__up-animation nav-links__hover-effect--white"
-              href="google.com"
-              href="#"
-            >
-              .me()
-            </a>
-          </li> */}
+
           <li>
             <Link
               to="projects"
@@ -69,11 +61,11 @@ function Header() {
             </a>
           </li>
         </ul>
-        <div className="burger">
+        {/* <div className="burger">  for burger sidebar
           <div className="line1"></div>
           <div className="line2"></div>
           <div className="line3"></div>
-        </div>
+        </div> */}
       </nav>
     </div>
   );

@@ -7,8 +7,8 @@ function Projects() {
   return (
     <div className="projects" id="projects">
       <div className="projects_container">
-        <h1 className="projects__heading">Projects</h1>
-        <div className="projects_list">
+        <h1 className="projects__heading">My Projects</h1>
+        <ul className="projects_list">
           {ProjectArray.map((item) => {
             return (
               <ProjectItem
@@ -22,7 +22,7 @@ function Projects() {
               /> // for each item in the array, create a card and pass these values as props
             );
           })}
-        </div>
+        </ul>
       </div>
     </div>
   );

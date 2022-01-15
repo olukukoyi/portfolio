@@ -1,6 +1,45 @@
-.skill__list {
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  max-width: 48%;
+  padding: 120px 72px;
+  /* background-color: red; */
+}
+
+.skills__info {
+  /* background-color: blue; */
+  width: 100%;
+  line-height: 1.6;
+}
+
+.skills__info h1 {
+  padding-bottom: 0.6rem;
+}
+
+.skills__info h3 {
+  padding-bottom: 1rem;
+}
+
+.skills__list {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
+  align-items: center;
   width: 100%;
+  margin-top: 2rem;
+  display: flex;
+  /* background-color: green; */
+}
+
+/* @media screen and (max-width: 975px) {
+  
+}; */
+
+@media screen and (max-width: 852px) {
+  .skills__info {
+    background-color: red;
+    width: 1000px;
+  }
 }

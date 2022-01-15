@@ -9,7 +9,7 @@ AOS.init();
 function ProjectItem(props) {
   return (
     <div data-aos="fade-right" data-os-duration="3000">
-      <div>
+      <li>
         <div className="projects__item">
           <div className="projects__item__wrapper">
             <img className="projects__item_image" src={props.image} alt="" />
@@ -27,7 +27,7 @@ function ProjectItem(props) {
             </Link>
           </div>
         </div>
-      </div>
+      </li>
     </div>
   );
 }
