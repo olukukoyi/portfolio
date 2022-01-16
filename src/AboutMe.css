@@ -25,7 +25,6 @@
   display: flex;
   justify-content: space-between;
   width: 50vw;
-  height: 60vh;
   border: solid 2px black;
   border-radius: 39px;
   max-width: 1200px;
@@ -40,10 +39,23 @@
 
 @media screen and (max-width: 852px) {
   .aboutMe__content {
-    display: flex;
-    flex-direction: column;
-    background-color: transparent;
-    border: none;
+    padding: 23px;
+    background-color: white;
+    text-align: center;
+    margin: none;
+    display: inline;
+    width: 100vw;
+    border: 0px;
+    border-radius: 0;
+    max-width: 1200px;
+    width: 90%;
+    height: 120vh;
+  }
+  .aboutMe__form {
     width: 100%;
+  }
+
+  .aboutMe {
+    margin: 0;
   }
 }

@@ -90,6 +90,8 @@
 
 .projects__item button {
   transition: all 200ms ease;
+  transform: translateX(-100%);
+
   opacity: 0;
   width: 190px;
   position: absolute;
@@ -107,6 +109,7 @@
 
 .projects__item:hover button {
   opacity: 1;
+  transform: translateX(0);
 }
 
 .projects__item:hover .projects__index {
@@ -131,6 +134,10 @@
 @media screen and (max-width: 930px) {
   .projects__item {
     width: 600px !important;
+  }
+
+  .projects__item:hover .projects__item_info {
+    transform: translateY(-25%);
   }
 }
 

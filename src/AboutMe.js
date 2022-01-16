@@ -20,7 +20,6 @@ function AboutMe() {
           onClick={handleClick}
         />
         <SkillList />
-        asdsadasdasd asdsadasdasd123
         <div className="aboutMe__form">
           <Form />
         </div>

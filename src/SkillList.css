@@ -38,8 +38,19 @@
 }; */
 
 @media screen and (max-width: 852px) {
+  .skills {
+    max-width: 100%;
+    padding: 0;
+  }
   .skills__info {
-    background-color: red;
+    /* background-color: red; */
     width: 1000px;
+  }
+
+  .skills__list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15%;
   }
 }
