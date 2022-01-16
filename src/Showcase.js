@@ -4,12 +4,14 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Typewriter from "typewriter-effect"; // Library fro typewriter animation
 import { gsap } from "gsap";
 import { useNavigate } from "react-router-dom";
+import resume from "./assets/oluwanifesimiResume.pdf";
 
 import {
   faGithub,
   faTwitter,
   faLinkedin,
 } from "@fortawesome/free-brands-svg-icons";
+import { faFile, faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 function Showcase() {
   const navigate = useNavigate();
@@ -39,15 +41,11 @@ function Showcase() {
               <FontAwesomeIcon icon={faLinkedin} />
             </a>
           </li>
-          {/* <li className="media-container__list-item">
-            <a
-              href="https://twitter.com/?lang=en"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <FontAwesomeIcon icon={faTwitter} />
+          <li className="media-container__list-item">
+            <a href={resume} target="_blank" rel="noopener noreferrer">
+              <FontAwesomeIcon icon={faFilePdf} />
             </a>
-          </li> */}
+          </li>
         </ul>
       </div>
       <div class="row">

@@ -30,6 +30,7 @@
   box-shadow: 8px 5px 14px 2px rgba(0, 0, 0, 0.86);
   width: 1100px;
   height: 500px;
+  /* color: white; */
   /* background-color: black; */
   margin-bottom: 9%;
   position: relative;
@@ -55,10 +56,12 @@
 }
 
 .projects__item_image {
+  object-fit: contain;
   transition: all 300ms ease;
 }
 
 .projects__item:hover .projects__item_image {
+  opacity: 0.7;
   filter: blur(6px);
   transform: scale(1.05);
 }
@@ -78,6 +81,7 @@
 }
 
 .projects__index {
+  color: black;
   transition: all 300ms ease;
   transform: translateX(100%);
   opacity: 0;

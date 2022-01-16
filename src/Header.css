@@ -21,6 +21,9 @@ nav {
   justify-content: space-around;
   width: 40%;
 }
+.nav-links > li {
+  cursor: pointer;
+}
 
 @keyframes fallAnimation {
   0% {

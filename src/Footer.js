@@ -11,24 +11,26 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
+import { useNavigate } from "react-router-dom";
+import resume from "./assets/oluwanifesimiResume.pdf";
 AOS.init();
 
 function Footer() {
   const year = new Date().getFullYear();
+  const navigate = useNavigate();
 
   return (
     <div className="footer" data-aos="fade-left" data-aos-duration="2000">
-      <div className="footer__content">
+      <div
+        className="footer__content"
+        onClick={() => {
+          scroll.scrollToTop();
+        }}
+      >
         <h3 className="footer__title">
           <a className="name">Olu Kukoyi </a>
         </h3>
-        <FontAwesomeIcon
-          className="footer__arrow fa-3x"
-          icon={faArrowUp}
-          onClick={() => {
-            scroll.scrollToTop();
-          }}
-        />
+        <FontAwesomeIcon className="footer__arrow fa-3x" icon={faArrowUp} />
       </div>
       <div className="footer__media">
         <a
@@ -48,22 +50,24 @@ function Footer() {
           Linkedin
         </a>
         <a
-          href="google.com"
+          href={resume}
           target="_blank"
           rel="noopener noreferrer"
           className="footer__item footer__hover-effect--white"
         >
           Resume
         </a>
-        <a
-          // href="https://github.com/olukukoyi"
-
+        <Link
+          onClick={() => {
+            scroll.scrollToTop();
+            navigate("/contact");
+          }}
           target="_blank"
           rel="noopener noreferrer"
           className="footer__item footer__hover-effect--white"
         >
           Contact
-        </a>
+        </Link>
       </div>
       <div className="footer__copyright">Copyright © {year}</div>
     </div>

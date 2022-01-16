@@ -1,9 +1,9 @@
-import logo from "./images/bnbclone-img.png";
+// import bnb from ".images/bnbclone-img.png";
 
 const ProjectArray = [
   {
     key: "01",
-    img: { logo },
+    img: "./images/bnbclone-img.png",
     title: "AirBnb Clone",
     tech: "React, Javascript, Css, Netlifly",
     info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
@@ -12,23 +12,31 @@ const ProjectArray = [
   },
   {
     key: "02",
-    img: "",
+    img: "./images/hulu-clone-pic.png",
     title: "Hulu Clone",
     tech: "React, Javascript, Css, Netlifly",
-
     info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     lanugages: " React, CSS",
     link: "https://olukukoyi.github.io/HuluClone/",
   },
   {
-    key: "03",
-    img: "asdasd",
-    title: "Food Locations",
-    tech: "React, Javascript, Css, Netlifly",
+    key: "02",
+    img: "./images/tindog-img.png",
+    title: "TinDog",
+    tech: "HTML, CSSt",
     info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     lanugages: " React, CSS",
-    link: "https://wonderful-engelbart-a0c508.netlify.app/",
+    link: "https://olukukoyi.github.io/HuluClone/",
   },
+  // {
+  //   key: "03",
+  //   img: "./images/bnbclone-img.png",
+  //   title: "Food Locations",
+  //   tech: "React, Javascript, Css, Netlifly",
+  //   info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
+  //   lanugages: " React, CSS",
+  //   link: "https://wonderful-engelbart-a0c508.netlify.app/",
+  // },
   // {
   //   key: "04",
   //   img: "asdasd",

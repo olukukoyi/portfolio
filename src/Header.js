@@ -32,8 +32,6 @@ function Header() {
             <a
               onClick={homeNavigation}
               className="nav-links__down-animation nav-links__hover-effect--white"
-              href="google.com"
-              href="#"
             >
               .home()
             </a>
@@ -45,7 +43,6 @@ function Header() {
               smooth="true"
               duration={500}
               className="nav-links__down-animation nav-links__hover-effect--white"
-              href="google.com"
             >
               .projects()
             </Link>
@@ -54,8 +51,6 @@ function Header() {
             <a
               onClick={contactNavigation}
               className="nav-links__up-animation nav-links__hover-effect--white"
-              href="google.com"
-              href="#"
             >
               .contact()
             </a>
