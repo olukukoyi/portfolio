@@ -149,6 +149,10 @@
   .projects__item {
     width: 460px !important;
   }
+
+  .projects__item_info {
+    font-size: 14px;
+  }
   .projects__item:hover .projects__item_info {
     transform: translateY(-20%);
   }
