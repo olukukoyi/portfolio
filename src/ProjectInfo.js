@@ -29,7 +29,7 @@ const ProjectArray = [
     link: "https://olukukoyi.github.io/Tindog/",
   },
   {
-    key: "03",
+    key: "04",
     img: "./images/nycfood-img.png",
     title: "NYC Trending Food Locations",
     tech: "React, Javascript, Css, Netlifly",
@@ -38,7 +38,7 @@ const ProjectArray = [
     link: "https://nyc-food.vercel.app/",
   },
   // {
-  //   key: "04",
+  //   key: "05",
   //   img: "asdasd",
   //   title: "OakBook, my personal app",
   //   info: "Underconstruction",
