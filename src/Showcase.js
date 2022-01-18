@@ -6,12 +6,8 @@ import { gsap } from "gsap";
 import { useNavigate } from "react-router-dom";
 import resume from "./assets/oluwanifesimiResume.pdf";
 
-import {
-  faGithub,
-  faTwitter,
-  faLinkedin,
-} from "@fortawesome/free-brands-svg-icons";
-import { faFile, faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
 
 function Showcase() {
   const navigate = useNavigate();

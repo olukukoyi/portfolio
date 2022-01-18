@@ -20,13 +20,13 @@ const ProjectArray = [
     link: "https://olukukoyi.github.io/HuluClone/",
   },
   {
-    key: "02",
+    key: "03",
     img: "./images/tindog-img.png",
     title: "TinDog",
     tech: "HTML, CSSt",
     info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
     lanugages: " React, CSS",
-    link: "https://olukukoyi.github.io/HuluClone/",
+    link: "https://olukukoyi.github.io/Tindog/",
   },
   // {
   //   key: "03",

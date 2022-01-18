@@ -100,13 +100,18 @@ nav {
 }
 
 @media screen and (max-width: 768px) {
+  .nav-links {
+    width: 90%;
+  }
   .header__name {
     display: none;
   }
-
+  .nav-links {
+    margin-left: 50px;
+  }
   .nav-links li {
     font-size: 12px;
-    padding-right: 20px;
+    padding-right: 18px;
   }
 
   nav {
