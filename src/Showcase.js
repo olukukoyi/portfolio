@@ -4,7 +4,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Typewriter from "typewriter-effect"; // Library fro typewriter animation
 import { gsap } from "gsap";
 import { useNavigate } from "react-router-dom";
-import resume from "./assets/oluwanifesimiResume.pdf";
+// import resume from "./assets/oluwanifesimiResume.pdf";
+import resume from "./assets/v2.2Resume.pdf";
 
 import { faGithub, faLinkedin } from "@fortawesome/free-brands-svg-icons";
 import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
