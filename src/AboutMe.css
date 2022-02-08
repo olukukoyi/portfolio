@@ -3,6 +3,8 @@
   justify-content: center;
   align-items: center;
   margin: 0 auto;
+  /* width: 100vw;
+  height: 50vh; */
 }
 
 .aboutMe__close {
@@ -24,12 +26,11 @@
   align-self: center;
   display: flex;
   justify-content: space-between;
-  width: 50vw;
   border: solid 2px black;
   border-radius: 39px;
   max-width: 1200px;
   width: 90%;
-  height: 700px;
+  height: 90vh;
   transition: all 300ms ease;
 }
 
@@ -51,10 +52,11 @@
     border-radius: 0;
     max-width: 1200px;
     width: 90%;
-    height: 132vh;
+    height: 100%;
   }
   .aboutMe__form {
     width: 100%;
+    /* height: 100vh; */
   }
 
   .aboutMe {

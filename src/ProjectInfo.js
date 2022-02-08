@@ -30,7 +30,7 @@ const ProjectArray = [
   },
   {
     key: "04",
-    img: "./images/nycfood-img.png",
+    img: "./images/nycfood-img2.png",
     title: "NYC Trending Food Locations",
     tech: "React, Javascript, Css, Netlifly",
     info: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. ",
