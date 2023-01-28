@@ -62,9 +62,9 @@
 }
 
 .projects__item_image {
-  width: 100%;
-  height: 100%;
-  object-fit: fit;
+  /* width: 100%;
+  height: 100%; */
+  object-fit: cover;
   transition: all 300ms ease;
 }
 
