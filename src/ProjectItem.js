@@ -6,6 +6,8 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 AOS.init();
 
+// percentages does not work in styling
+
 function ProjectItem(props) {
   return (
     <div data-aos="fade-right" data-os-duration="3000">

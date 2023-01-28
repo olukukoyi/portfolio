@@ -52,7 +52,7 @@ function Header() {
               onClick={contactNavigation}
               className="nav-links__up-animation nav-links__hover-effect--white"
             >
-              .contact ()
+              .contact()
             </a>
           </li>
         </ul>

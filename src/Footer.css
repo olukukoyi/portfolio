@@ -85,9 +85,13 @@
   .footer {
   }
   .footer__media {
-    width: 80%;
+    margin: 0.7rem;
+    width: 94%;
   }
   .form__container {
     padding: 0;
   }
+  /* .footer__item {
+    font-size: ;
+  } */
 }
