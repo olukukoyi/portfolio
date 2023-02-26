@@ -7,6 +7,7 @@ import Footer from "./Footer";
 import React from "react";
 import AboutMe from "./AboutMe";
 import { Routes, Route, Link } from "react-router-dom";
+// project was made using React version : @16.8.6
 
 export default function App() {
   return (
