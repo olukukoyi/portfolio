@@ -12,7 +12,7 @@ import "aos/dist/aos.css";
 import { Link } from "react-scroll";
 import { animateScroll as scroll } from "react-scroll";
 import { useNavigate } from "react-router-dom";
-import resume from "./assets/olukukoyiresume.pdf";
+
 AOS.init();
 
 function Footer() {
